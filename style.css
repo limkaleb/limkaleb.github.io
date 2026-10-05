@@ -1,5 +1,5 @@
 body {
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif  ;
+	font-family: 'SF Mono', Menlo, Consolas, monospace;
 	background: #111010 ;
 	color: #ccc ;
 }
@@ -44,6 +44,10 @@ footer {
 .contactcontainer {
 	display: flex ;
 	justify-content: center  ;
+}
+
+.contactcontainer .icon {
+	padding: 4px 10px ;
 }
 
 .icon {
