@@ -73,3 +73,12 @@ footer {
 #nextart,#prevart {
 	max-width: 33% ;
 }
+
+/* Text links under the contact icons */
+article > a {
+	text-decoration: none ;
+}
+article > a:hover {
+	text-decoration: underline ;
+	text-decoration-color: #fff ;
+}
