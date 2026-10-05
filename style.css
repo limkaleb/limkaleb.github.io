@@ -1,3 +1,8 @@
+/* Single accent color for links, hover and focus */
+:root {
+	--accent: #f0b429 ;
+}
+
 body {
 	font-family: 'SF Mono', Menlo, Consolas, monospace;
 	background: #111010 ;
@@ -82,7 +87,14 @@ footer {
 article > a {
 	text-decoration: none ;
 }
+article > a h4 {
+	color: var(--accent) ;
+}
 article > a:hover {
 	text-decoration: underline ;
-	text-decoration-color: #fff ;
+	text-decoration-color: var(--accent) ;
+}
+a:focus-visible {
+	outline: 2px solid var(--accent) ;
+	outline-offset: 3px ;
 }
